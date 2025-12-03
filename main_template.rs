@@ -16,11 +16,11 @@ fn run(data: &str, day: u8) -> Result<(), AocError> {
     Ok(())
 }
 
-pub fn part01(data: &str) -> Result<u32, AocError> {
+pub fn part01(data: &str) -> Result<impl std::fmt::Display, AocError> {
     Ok(42)
 }
 
-pub fn part02(data: &str) -> Result<u32, AocError> {
+pub fn part02(data: &str) -> Result<impl std::fmt::Display, AocError> {
     Ok(42)
 }
 
