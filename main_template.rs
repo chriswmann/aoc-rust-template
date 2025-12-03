@@ -8,7 +8,7 @@ fn main() -> Result<(), AocError> {
     Ok(())
 }
 
-fn run(data: &str, day: u32) -> Result<(), AocError> {
+fn run(data: &str, day: u8) -> Result<(), AocError> {
     let part01_answer = part01(data)?;
     println!("Day {}, Part 1 answer is: {}", day, part01_answer);
     let part02_answer = part02(data)?;
