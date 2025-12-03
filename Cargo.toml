@@ -1,11 +1,12 @@
 [workspace]
 # Add new days using: just add-day XX (e.g., just add-day 01)
 # The day* glob will automatically include new day directories
-members = ["day*", "santas_little_helpers"]
+members = ["day01", "day*", "santas_little_helpers"]
 resolver = "2"
 
 [workspace.dependencies]
 nom = "8.0.0"
 rstest = "0.26.1"
 rstest_reuse = "0.7.0"
+indoc = "2"
 santas_little_helpers = { path = "santas_little_helpers" }

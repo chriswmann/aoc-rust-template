@@ -1,0 +1,10 @@
+[package]
+name = "dayXX"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+santas_little_helpers = { workspace = true }
+
+[dev-dependencies]
+indoc = { workspace = true }
